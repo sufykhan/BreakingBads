@@ -6,7 +6,7 @@ const CharacterArea = ({data}) => {
     const {name,img,occupation,status,birthday,category,char_id}=data;
 
     return (
-        <Col md={4} >
+        <Col md={4} sm={6} xs={12}>
           <Card style={{ width: "20rem",border:"none",background:"center"}}>
             <Card.Header style={{fontSize:"20px",color:"#ddd",fontWeight:"400"}}>{name}</Card.Header>
             <Card.Body>
